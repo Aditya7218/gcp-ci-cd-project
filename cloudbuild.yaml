@@ -1,0 +1,6 @@
+steps:
+  - name: 'gcr.io/cloud-builders/gcloud'
+    entrypoint: python3
+    args: ['load_csv_to_bigquery.py']
+
+timeout: 600s
