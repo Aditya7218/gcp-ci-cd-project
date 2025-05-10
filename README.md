@@ -21,3 +21,4 @@ This project demonstrates a simple CI/CD pipeline on Google Cloud using:
 # test trigger
 # test trigger
 # test trigger
+# test trigger
