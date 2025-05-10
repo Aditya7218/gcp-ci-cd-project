@@ -1,12 +1,12 @@
 steps:
   # Step 1: Install the required Python dependencies
-  - name: 'gcr.io/cloud-builders/python:3.10'
+  - name: 'python:3.10'  # Official Python image
     id: Install dependencies
     entrypoint: 'pip'
     args: ['install', '-r', 'requirements.txt']
 
   # Step 2: Run the Python script
-  - name: 'gcr.io/cloud-builders/python'
+  - name: 'python:3.10'  # Official Python image
     id: Run script
     entrypoint: 'python3'
     args: ['load_csv_to_bigquery.py']
