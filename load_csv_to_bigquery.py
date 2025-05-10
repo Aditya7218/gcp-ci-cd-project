@@ -3,10 +3,10 @@ from google.cloud import storage
 import os
 
 # Configuration
-BUCKET_NAME = 'your-bucket-name'
-FILE_NAME = 'your-file.csv'
-DATASET_ID = 'your_dataset'
-TABLE_ID = 'your_table'
+BUCKET_NAME = 'abc-dev-cicd-test'
+FILE_NAME = 'sample.csv'
+DATASET_ID = 'people'
+TABLE_ID = 'people_info'
 
 def load_csv_to_bq():
     bq_client = bigquery.Client()
