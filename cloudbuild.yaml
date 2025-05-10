@@ -3,4 +3,7 @@ steps:
     entrypoint: python3
     args: ['load_csv_to_bigquery.py']
 
+options:
+  logging: CLOUD_LOGGING_ONLY
+
 timeout: 600s
